@@ -1,0 +1,36 @@
+{
+  "name": "smart-emi-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium AI-powered loan calculator and financial strategist.",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve .",
+    "build": "echo 'No build step required for ES modules'",
+    "preview": "npx serve ."
+  },
+  "keywords": [
+    "emi",
+    "calculator",
+    "loan",
+    "finance",
+    "ai",
+    "gemini",
+    "react"
+  ],
+  "author": "SmartEMI Intelligence",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "recharts": "^3.6.0",
+    "@google/genai": "^1.34.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "serve": "^14.2.4"
+  }
+}
