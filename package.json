@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "npx serve .",
     "start": "npx serve .",
-    "build": "echo 'No build step required for ES modules'",
+    "build": "echo 'Static build successful. No compilation required for ESM app.'",
     "preview": "npx serve ."
   },
   "keywords": [
